@@ -13,7 +13,7 @@
         }
         
         /* Body Styling */
-        body {
+      body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +24,7 @@
     text-align: center;
     overflow: hidden;
 }
+
         
         /* Container Styling */
         .container {
@@ -149,7 +150,7 @@
                         statusElement.textContent = 'No change detected in your IP address.';
                         statusElement.className = 'no-change'; // Apply no-change style
                     } else {
-                        statusElement.textContent = '⚠ Your IP address has changed!';
+                        statusElement.textContent = 'Your IP address has changed!';
                         statusElement.className = 'warning'; // Apply warning style
                     }
                 } else {
